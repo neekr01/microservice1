@@ -81,8 +81,5 @@ pipeline{
         sh "docker push neekr01/microservice1 "
         }
     }
-
-
-    }
     
 }
