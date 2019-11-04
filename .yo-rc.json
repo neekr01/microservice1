@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jhipster.gateway"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "microservice1",
+    "packageName": "com.jhipster.gateway",
+    "packageFolder": "com/jhipster/gateway",
+    "serverPort": "1001",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2U3ZDI1OTU4NTdjYjFiNWIwYjBiMzgxN2RiOTE0MjU4NWI2Yjg4ODAwMDFlMWY2OWMzOThhZjk2MTgwMzk4ZDA2YTM0MDlmN2E5ZDAyYjQ3NzFhZDkzY2EyODJkMmUwOWE0NTVhM2FhOTI0NjdmZjg3OTJhNjlhMzNjZTFlYjY=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
