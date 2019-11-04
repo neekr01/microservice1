@@ -74,6 +74,13 @@ pipeline{
         }
     }
 
+     stage('Docker Push'){
+        steps{
+            sh  "docker login -u neekr01 -p Krsonukr33@"
+        sh "docker push neekr01/microservice1 "
+        }
+    }
+
 
     }
     
