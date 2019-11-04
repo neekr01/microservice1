@@ -67,6 +67,14 @@ pipeline{
         sh "mvn package"
     }
     }
+
+    stage('Docker Image'){
+        steps{
+        sh "docker build -t neekr01/microservice1 ."
+        }
+    }
+
+
     }
     
 }
