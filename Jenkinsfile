@@ -53,7 +53,7 @@ pipeline{
     stages{
         stage('Git Clone'){
         steps{
-            git credentialsId: 'GIT_credentials', url: 'https://github.com/neekr01/springbootmysql.git'
+            git credentialsId: 'GIT_credentials', url: 'https://github.com/neekr01/microservice1.git'
         }
     }
     
