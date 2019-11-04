@@ -76,7 +76,9 @@ pipeline{
 
      stage('Docker Push'){
         steps{
-            sh  "docker login -u neekr01 -p Krsonukr33@"
+           withCredentials([string(credentialsId: '', variable: 'DOCKER_HUB_CREDENTIALS')]) {
+    sh "docker login -u neekr01 -p {DOCKER_HUB_CREDENTIALS}"
+}
         sh "docker push neekr01/microservice1 "
         }
     }
